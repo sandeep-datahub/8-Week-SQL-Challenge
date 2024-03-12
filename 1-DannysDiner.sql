@@ -1,3 +1,4 @@
+--Table creation
 USE [Dannys Diner];
 
 CREATE TABLE sales (
@@ -25,7 +26,6 @@ VALUES
   ('C', '2021-01-01', '3'),
   ('C', '2021-01-07', '3');
  
-
 CREATE TABLE menu (
   "product_id" INTEGER,
   "product_name" VARCHAR(5),
@@ -39,7 +39,6 @@ VALUES
   ('2', 'curry', '15'),
   ('3', 'ramen', '12');
   
-
 CREATE TABLE members (
   "customer_id" VARCHAR(1),
   "join_date" DATE
@@ -51,14 +50,8 @@ VALUES
   ('A', '2021-01-07'),
   ('B', '2021-01-09');
 
-
-SELECT * FROM sales;
-SELECT * FROM menu;
-SELECT * FROM members;
-
-
 /* --------------------
-   Case Study Questions
+   CASE STUDY QUESTIONS
    --------------------*/
 
 -- 1. What is the total amount each customer spent at the restaurant?
